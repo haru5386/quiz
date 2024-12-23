@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <header>
       <img src={quizLogo} alt="header" />
-      <h1>Question!!</h1>
+      <h1>K-pop Question!!</h1>
     </header>
   );
 }

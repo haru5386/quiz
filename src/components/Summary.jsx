@@ -11,7 +11,7 @@ export default function Summary({ userAnswers }) {
   let level = Math.floor(userPoint / 5);
   return (
     <div id="summary">
-      Your Score is :{" "}
+      您獲得的分數是:
       <h1>
         {userPoint}/{question.length}
       </h1>
